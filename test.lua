@@ -82,7 +82,7 @@ function Loader.new(OnLoadCallback)
 	LoaderUI.Top["3"]["Size"] = UDim2.new(0, 0, 0, 36)
 	LoaderUI.Top["3"]["AutomaticSize"] = Enum.AutomaticSize.X
 	LoaderUI.Top["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-	LoaderUI.Top["3"]["Text"] = "Script Loader"
+	LoaderUI.Top["3"]["Text"] = "bloxforge"
 	LoaderUI.Top["3"]["Name"] = "Label"
 	LoaderUI.Top["3"]["TextTransparency"] = 1
 	LoaderUI.Top["3"]["LayoutOrder"] = 2
@@ -119,7 +119,7 @@ function Loader.new(OnLoadCallback)
 	LoaderUI.Description["BackgroundTransparency"] = 1
 	LoaderUI.Description["Size"] = UDim2.new(1, 0, 0, 20)
 	LoaderUI.Description["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-	LoaderUI.Description["Text"] = "Click the button below to load your scripts"
+	LoaderUI.Description["Text"] = "status: online"
 	LoaderUI.Description["Name"] = "Description"
 	LoaderUI.Description["TextTransparency"] = 1
 	LoaderUI.Description["TextWrapped"] = true
@@ -133,7 +133,7 @@ function Loader.new(OnLoadCallback)
 	LoaderUI.LoadButton["BackgroundColor3"] = Color3.fromRGB(29, 34, 36)
 	LoaderUI.LoadButton["Size"] = UDim2.new(0, 200, 0, 40)
 	LoaderUI.LoadButton["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-	LoaderUI.LoadButton["Text"] = "Load Scripts"
+	LoaderUI.LoadButton["Text"] = "load bloxforge"
 	LoaderUI.LoadButton["Name"] = "LoadButton"
 	LoaderUI.LoadButton["BackgroundTransparency"] = 1
 	LoaderUI.LoadButton["TextTransparency"] = 1
@@ -166,7 +166,7 @@ function Loader.new(OnLoadCallback)
 	LoaderUI.Status["BackgroundTransparency"] = 1
 	LoaderUI.Status["Size"] = UDim2.new(1, 0, 0, 16)
 	LoaderUI.Status["BorderColor3"] = Color3.fromRGB(0, 0, 0)
-	LoaderUI.Status["Text"] = "Ready"
+	LoaderUI.Status["Text"] = "waiting for load..."
 	LoaderUI.Status["Name"] = "Status"
 	LoaderUI.Status["TextTransparency"] = 1
 	LoaderUI.Status["LayoutOrder"] = 1
